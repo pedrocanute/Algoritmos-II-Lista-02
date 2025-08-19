@@ -12,7 +12,9 @@ typedef struct {
 }Pessoa;
 
 void imprimir_Pessoa(char nome[], int indice, Pessoa arrayPessoa[]) {
-	printf("Nome: %s | Idade: %d | Altura: %.2f\n", arrayPessoa[indice].nome, arrayPessoa[indice].idade, arrayPessoa[indice].altura);
+	if (strcmp(nome, arrayPessoa[indice].nome) == 0) {
+		printf("Nome: %s | Idade: %d | Altura: %.2f\n", arrayPessoa[indice].nome, arrayPessoa[indice].idade, arrayPessoa[indice].altura);
+	}
 }
 
 int main() {
