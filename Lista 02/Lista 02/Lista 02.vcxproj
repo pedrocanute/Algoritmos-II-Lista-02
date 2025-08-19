@@ -21,6 +21,9 @@
   <ItemGroup>
     <ClCompile Include="Exercicio01.c" />
     <ClCompile Include="Exercicio02.c" />
+    <ClCompile Include="Exercicio03.c" />
+    <ClCompile Include="Exercicio04.c" />
+    <ClCompile Include="Exercicio04_1.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
