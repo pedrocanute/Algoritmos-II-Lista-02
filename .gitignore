@@ -7,6 +7,15 @@
 *.obj
 *.elf
 
+# Pastas de compilação (Build)
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# Arquivos de usuário do Visual Studio
+*.user
+
 # Visual Studio specific
 .vs/
 *.suo
